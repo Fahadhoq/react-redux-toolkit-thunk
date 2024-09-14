@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome to React redux-axios-thunk-toolkit</h1>
-      <Counter />
-      <Todos />
+      {/* <Counter />
+      <Todos /> */}
       <CounterView />
     </div>
   );
