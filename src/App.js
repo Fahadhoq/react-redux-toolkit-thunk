@@ -11,7 +11,7 @@ function App() {
       <h1>Welcome to React redux-axios-thunk-toolkit</h1>
       {/* <Counter />
       <Todos /> */}
-      {/* <CounterView /> */}
+      <CounterView />
       <PostView />
     </div>
   );
