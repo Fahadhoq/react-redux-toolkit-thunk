@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from "react-redux";
 import counterStore from './service/store/counterStore';
 import todosStore from './service/store/todosStore';
+import store from './app/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,12 @@ root.render(
     {/* <Provider store={counterStore}>
       <App />
     </Provider> */}
-    <Provider store={todosStore}>
+    {/* <Provider store={todosStore}>
+      <App />
+    </Provider> */}
+
+    {/* toolkit */}
+    <Provider store={store}>
       <App />
     </Provider>
   </React.StrictMode>
