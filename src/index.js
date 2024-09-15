@@ -11,15 +11,22 @@ import store from './app/store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* redux */}
     {/* <Provider store={counterStore}>
       <App />
+      
     </Provider> */}
     {/* <Provider store={todosStore}>
       <App />
     </Provider> */}
 
     {/* toolkit */}
-    <Provider store={store}>
+    {/* <Provider store={store}>
+      <App />
+    </Provider> */}
+
+    {/* project */}
+    <Provider store={store} >
       <App />
     </Provider>
   </React.StrictMode>
